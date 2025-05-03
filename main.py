@@ -1,5 +1,3 @@
-# Load the saved model
-# loaded_model = load_model("diabetes_neural_model.h5")
 from flask import Flask, request, jsonify
 from keras.models import load_model
 import numpy as np
